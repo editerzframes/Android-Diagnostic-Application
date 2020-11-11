@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="218sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/mainwindow1"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="328sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="305sp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c31"
+                android:layout_width="192sp"
+                android:layout_height="102sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25sp"
+                app:cardBackgroundColor="#DFECE9">
+
+                <LinearLayout
+                    android:layout_width="191sp"
+                    android:layout_height="116sp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="71sp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_people" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10sp"
+                        android:text="About Us" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="30sp"
+                android:text="Click here to Login!"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-smallcaps" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="149sp"
+                android:layout_height="64sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="128sp"
+                android:layout_marginRight="128sp"
+                android:layout_marginBottom="318sp"
+                app:srcCompat="@drawable/login" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="392sp"
+            android:layout_height="34sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="228sp"
+                android:layout_height="62sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="173sp"
+                android:text="Follow us on!"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-smallcaps"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.201"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="110sp"
+                android:layout_height="70sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="101sp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80sp"
+                android:layout_height="58sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="101sp"
+                app:srcCompat="@drawable/insta" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62sp"
+        android:background="@drawable/adv"
+        android:orientation="vertical" />
+
+
+</LinearLayout>
