@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diagnostictool">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/edilogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/edilogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OrientationSensor"></activity>
+        <activity android:name=".RotationalVectorSensor" />
+        <activity android:name=".LightTest" />
+        <activity android:name=".SoundTest" />
+        <activity android:name=".Magnetometer" />
+        <activity android:name=".ProximitySensor" />
+        <activity android:name=".GravitySensor" />
+        <activity android:name=".GyroscopeInfo" />
+        <activity android:name=".AccelerometerInfo" />
+        <activity android:name=".FlashlightInfo" />
+        <activity android:name=".GPSInfo" />
+        <activity android:name=".InternalMemoryStatus" />
+        <activity android:name=".NetworkInfo" />
+        <activity android:name=".CameraStatus" />
+        <activity android:name=".BatteryStatus" />
+        <activity android:name=".Resultscreen" />
+        <activity android:name=".feedback" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".customdiagnosis">
+
+        </activity>
+        <activity android:name=".ListViewAndroidExample" />
+        <activity android:name=".fulldia" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AboutPhoneActivity" />
+        <activity android:name=".DiagnosActivity">
+
+        </activity>
+
+        <activity
+            android:name=".WindowActivity"
+            android:label="@string/title_activity_window"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
